@@ -1,0 +1,109 @@
+body {
+	background-color: #835858;
+	color: (0, 0, 0);
+	font-family: 'Abel', sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+	font-family: 'Abril Fatface', cursive;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+h1 {
+	color: #463333;
+    font-weight: 800;
+    font-size: 38px;
+}
+
+h2 {
+	color: #835858;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: bolder;
+	color: #463333;
+}
+
+a:hover {
+	color: #835858;
+
+}
+
+#presentation p {
+	text-align: justify;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+.card-white {
+	background: white;
+	padding: 60px;
+	margin : 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,30,0.5);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+.btn-brown {
+	background-color: #463333;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
